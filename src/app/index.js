@@ -25,11 +25,7 @@ const configureStore = () =>
 ReactDOM.render(
   <Provider store={configureStore()}>
     <div>
-      <ConferenceRoom
-      //isDemo
-      //consumerKey={key}
-      //consumerSecret={secret}
-      />
+      <ConferenceRoom />
     </div>
   </Provider>,
   document.getElementById("app")
